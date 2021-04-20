@@ -1,11 +1,10 @@
-nav.navbar {
+header {
     padding: 20px;
     position: absolute;
     width: 100%;
 }
-.navbar-brand {
+.logo {
     width: 70px;
-    padding: 0;
     svg {
         width: 100%;
         fill: $primaryColor;
