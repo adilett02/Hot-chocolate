@@ -34,10 +34,6 @@
     border-left: 1px solid #e2c2b8;
     border-bottom: 1px solid #e2c2b8;
     margin: -1px;
-    // &:last-child {
-    //     border-right: 1px solid #e2c2b8;
-    //     margin-left: -2px;
-    // }
 }
 
 .buy-section {
@@ -62,7 +58,6 @@
         background: $primaryColor;
         color: $secondaryColor;
         text-decoration: none;
-        font-weight: bold;
         border: 1px solid transparent;
         &:hover {
             border: 1px solid #fff;
@@ -72,7 +67,7 @@
     }
 }
 
-.tea-composition {
+.chocolate-composition {
     background-color: $secondaryColor;
     padding-top: 100px;
     h4 {
@@ -88,7 +83,7 @@
 .lte-effect-smoke {
     position: relative;
     pointer-events: none;
-    width: 400px;
+    width: 500px;
     height: 300px;
 }
 
@@ -162,22 +157,70 @@
 .cocoa {
     padding: 50px 0;
 }
+@media (max-width: 991px) {
+    .lte-effect-smoke {
+        width: 400px;
+    }
+}
 
 @media (max-width: 991px) {
     .buy-section {
         padding-bottom: 50px;
     }
+    .lte-effect-smoke {
+        width: 330px;
+    }
+    @keyframes lte-smoke-1 {
+        0% {
+            opacity: 0;
+            transform: translate(0%, 320px);
+        }
+        20% {
+            opacity: 0.7;
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(-50%, 0px);
+        }
+    }
 }
 @media (max-width: 768px) {
+    .lte-effect-smoke {
+        width: 260px;
+    }
 }
 @media (max-width: 576px) {
     .about-product {
-        padding-top: 80px;
+        padding-top: 0px;
         h2 {
             font-size: 36px;
+            letter-spacing: -1px;
         }
         h4 {
-            font-size: 28px;
+            font-size: 34px;
         }
+    }
+    .lte-effect-smoke {
+        width: 50%;
+        height: 150px;
+    }
+    @keyframes lte-smoke-1 {
+        0% {
+            opacity: 0;
+            transform: translate(0%, 200px);
+        }
+        20% {
+            opacity: 0.7;
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(-50%, 0px);
+        }
+    }
+    .structure {
+        padding: 20px;
+    }
+    .buy-section {
+        padding-top: 40px;
     }
 }

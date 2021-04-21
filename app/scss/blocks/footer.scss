@@ -1,14 +1,14 @@
 //footer
 .footer {
     padding: 40px 0;
-    background-color: $primaryColor;
-    color: #000;
+    background-color: $secondaryColor;
     .conditions-text {
-        color: #fff;
+        text-decoration: underline;
+        color: $primaryColor;
     }
 }
 .footer-copyright {
-    color: $secondaryColor;
+    color: $primaryColor;
 }
 .social__list {
     display: flex;
@@ -21,7 +21,6 @@
             height: 50px;
             background-color: #fff;
             padding: 13px;
-            // border-radius: 50%;
             transition: all 0.3s ease 0s;
             &:hover {
                 background-color: transparent;
@@ -36,7 +35,7 @@
         svg {
             width: 100%;
             height: 100%;
-            fill: $primaryColor;
+            fill: $secondaryColor;
         }
     }
 }

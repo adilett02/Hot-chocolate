@@ -37,7 +37,36 @@ h6 {
     padding: 0;
     margin: 0;
 }
+.order-btn {
+    font-family: "Pacifico", cursive;
 
+    display: inline-flex;
+    color: $primaryColor;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    font-size: 22px;
+    span {
+        margin-left: 10px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        svg {
+            width: 100%;
+            height: 100%;
+            fill: $secondaryColor;
+        }
+    }
+    &:hover {
+        color: $primaryColor;
+    }
+}
 button {
     border: none;
     outline: none;
