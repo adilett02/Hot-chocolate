@@ -35,6 +35,13 @@
     border-bottom: 1px solid #e2c2b8;
     margin: -1px;
 }
+.contraindications {
+    margin: 20px 0;
+    span {
+        color: red;
+        margin-right: 10px;
+    }
+}
 
 .buy-section {
     background-image: url(../img/buy-bg.png);
