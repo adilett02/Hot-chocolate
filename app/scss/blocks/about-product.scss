@@ -79,6 +79,9 @@
     .lte-effect-smoke {
         margin: 0 auto;
     }
+    .about-text {
+        font-size: 22px;
+    }
 }
 .lte-effect-smoke {
     position: relative;
@@ -203,6 +206,11 @@
     .lte-effect-smoke {
         width: 50%;
         height: 150px;
+    }
+    .chocolate-composition {
+        .about-text {
+            font-size: 18px;
+        }
     }
     @keyframes lte-smoke-1 {
         0% {
