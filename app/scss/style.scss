@@ -39,7 +39,6 @@ h6 {
 }
 .order-btn {
     font-family: "Pacifico", cursive;
-
     display: inline-flex;
     color: $primaryColor;
     outline: none;
@@ -52,6 +51,7 @@ h6 {
     transition: all 0.3s ease;
     border-radius: 20px;
     font-size: 22px;
+    padding-bottom: 3px;
     span {
         margin-left: 10px;
         display: block;
